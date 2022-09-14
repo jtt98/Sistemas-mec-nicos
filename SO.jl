@@ -1,3 +1,6 @@
+# Programa auxiliar con algunas funciones propias
+# del grupo de rotaciones SO(3)
+# por Jose Torrente Teruel
 using LinearAlgebra
 
 I=[1 0 0
