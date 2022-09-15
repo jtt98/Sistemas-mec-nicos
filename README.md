@@ -1,3 +1,8 @@
 # Sistemas-mecanicos
-Integración simpléctica aplicada a unos pocos sistemas mecánicos de interés.
-Symplectic integration applied to a few interesting mechanical systems.
+Repositorio en Julia con integradores simplécticos para unos pocos sistemas mecánicos de interés.
+
+En esta librería se encuentran una serie de integradores geométricos para el [péndulo simple](https://github.com/jtt98/Sistemas-mecanicos/blob/main/pendulum.jl), el [péndulo doble](https://github.com/jtt98/Sistemas-mecanicos/blob/main/pendulum_double.jl), el [péndulo elástico](https://github.com/jtt98/Sistemas-mecanicos/blob/main/pendulum_elastic.jl), el [disco vertical](https://github.com/jtt98/Sistemas-mecanicos/blob/main/disk_vertical.jl), el [disco de Euler](https://github.com/jtt98/Sistemas-mecanicos/blob/main/disk.jl) y la [bola rodando en un plano rotatorio](https://github.com/jtt98/Sistemas-mecanicos/blob/main/ball_rotatingplane.jl). La derivación de las ecuaciones, así como una breve exposición de resultados para dichos integradores, se puede encontrar en el archivo [Sistemas-mecanicos.pdf](https://github.com/jtt98/Sistemas-mecanicos/blob/main/Sistemas-mecanicos.pdf). En este, se muestran las ecuaciones dinámicas continuas y discretas que permiten simular los sistemas a partir del conocimiento del Lagrangiano o Hamiltoniano. Se suelen conocer como ecuaciones de Euler-Lagrange discretas, y en el caso de mecánica no holónoma, como ecuaciones de Lagrange-d'Alembert. En este último caso, se utiliza una teoría profundamente geométrica, debido a que es necesario trabajar con distribuciones de ligaduras que modifican las ecuaciones para que la dinámica se restrinja a dichos espacios. Clásicos ejemplos de ello son el disco de Euler y la bola que rueda sin deslizar.
+
+Julia library of simplectic integrators for a few mechanical systems of interest.
+
+The work is in Spanish and the extended explanation with the 
